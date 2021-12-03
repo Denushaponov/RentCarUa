@@ -1,7 +1,7 @@
 table 50102 "RNLPosted Rental Header"
 {
     Caption = 'Rental Sales Header';
-    DataClassification = ToBeClassified;
+    DataClassification = CustomerContent;
     
 
     fields

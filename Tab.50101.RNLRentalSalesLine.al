@@ -1,4 +1,4 @@
-table 50101 "Rental Sales Line"
+table 50101 "RNLRental Sales Line"
 {
     Caption = 'Rental Sales Line';
     DataClassification = ToBeClassified;
@@ -9,6 +9,7 @@ table 50101 "Rental Sales Line"
         {
             Caption = 'Line No.';
             DataClassification = CustomerContent;
+            TableRelation = "Rental Sales Header";
         }
         field(2; "Item No."; Code[20])
         {
@@ -19,6 +20,7 @@ table 50101 "Rental Sales Line"
         {
             Caption = 'Name';
             DataClassification = CustomerContent;
+            
         }
     }
     keys
